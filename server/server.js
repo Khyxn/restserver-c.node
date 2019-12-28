@@ -4,7 +4,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const mongoose= require('mongoose');  
 
-
+/// rest server basico
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
 
