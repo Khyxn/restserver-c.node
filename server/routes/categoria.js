@@ -154,8 +154,4 @@ app.delete('/categoria/:id', [verificaToken, verificaAdmin_Role ], (req,res)=>{
 
 
 
-
-
-
-
 module.exports = app;
